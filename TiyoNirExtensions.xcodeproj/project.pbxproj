@@ -11,6 +11,7 @@
 		48D791B91FFE1A940023D0CD /* TiyoNirExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791B81FFE1A940023D0CD /* TiyoNirExtensionsTests.swift */; };
 		48D791BB1FFE1A940023D0CD /* TiyoNirExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C61FFE1AC30023D0CD /* ImageCreator.swift */; };
+		48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C91FFE27B30023D0CD /* HexColorConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		48D791B81FFE1A940023D0CD /* TiyoNirExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiyoNirExtensionsTests.swift; sourceTree = "<group>"; };
 		48D791BA1FFE1A940023D0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D791C61FFE1AC30023D0CD /* ImageCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreator.swift; sourceTree = "<group>"; };
+		48D791C91FFE27B30023D0CD /* HexColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		48D791C41FFE1AA10023D0CD /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				48D791C81FFE27870023D0CD /* HexColorConverter */,
 				48D791C51FFE1AAE0023D0CD /* ImageCreator */,
 			);
 			path = Source;
@@ -103,6 +106,14 @@
 				48D791C61FFE1AC30023D0CD /* ImageCreator.swift */,
 			);
 			path = ImageCreator;
+			sourceTree = "<group>";
+		};
+		48D791C81FFE27870023D0CD /* HexColorConverter */ = {
+			isa = PBXGroup;
+			children = (
+				48D791C91FFE27B30023D0CD /* HexColorConverter.swift */,
+			);
+			path = HexColorConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */,
 				48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
