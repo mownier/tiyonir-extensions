@@ -14,4 +14,8 @@ Pod::Spec.new do |s|
   s.subspec 'ImageCreator' do |ss|
     ss.source_files = 'TiyoNirExtensions/Source/ImageCreator/*.swift'
   end
+
+  s.subspec 'HexColorConverter' do |ss|
+    ss.source_files = 'TiyoNirExtensions/Source/HexColorConverter/*.swift'
+  end
 end
