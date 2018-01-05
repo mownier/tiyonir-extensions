@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		488B13861FFE675D001ADE46 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B13851FFE675D001ADE46 /* Hex.swift */; };
+		488B138C1FFE6D1D001ADE46 /* HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B138B1FFE6D1D001ADE46 /* HexTests.swift */; };
+		488B138E1FFE84C4001ADE46 /* UIColorExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B138D1FFE84C4001ADE46 /* UIColorExtensionTests.swift */; };
+		48CC4BCE1FFF283B007D257B /* HexConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BCD1FFF283B007D257B /* HexConverter.swift */; };
+		48CC4BD01FFF28BF007D257B /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BCF1FFF28BF007D257B /* ColorConverter.swift */; };
+		48CC4BD41FFF29ED007D257B /* HexConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD31FFF29ED007D257B /* HexConverterTests.swift */; };
+		48CC4BD81FFF2A99007D257B /* ColorConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD71FFF2A99007D257B /* ColorConverterTests.swift */; };
+		48CC4BDA1FFF2B24007D257B /* HexColorConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD91FFF2B24007D257B /* HexColorConverterTests.swift */; };
 		48D791B41FFE1A940023D0CD /* TiyoNirExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D791AA1FFE1A940023D0CD /* TiyoNirExtensions.framework */; };
-		48D791B91FFE1A940023D0CD /* TiyoNirExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791B81FFE1A940023D0CD /* TiyoNirExtensionsTests.swift */; };
 		48D791BB1FFE1A940023D0CD /* TiyoNirExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C61FFE1AC30023D0CD /* ImageCreator.swift */; };
 		48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C91FFE27B30023D0CD /* HexColorConverter.swift */; };
@@ -25,11 +32,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		488B13851FFE675D001ADE46 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		488B138B1FFE6D1D001ADE46 /* HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTests.swift; sourceTree = "<group>"; };
+		488B138D1FFE84C4001ADE46 /* UIColorExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensionTests.swift; sourceTree = "<group>"; };
+		48CC4BCD1FFF283B007D257B /* HexConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexConverter.swift; sourceTree = "<group>"; };
+		48CC4BCF1FFF28BF007D257B /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
+		48CC4BD31FFF29ED007D257B /* HexConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexConverterTests.swift; sourceTree = "<group>"; };
+		48CC4BD71FFF2A99007D257B /* ColorConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverterTests.swift; sourceTree = "<group>"; };
+		48CC4BD91FFF2B24007D257B /* HexColorConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorConverterTests.swift; sourceTree = "<group>"; };
 		48D791AA1FFE1A940023D0CD /* TiyoNirExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TiyoNirExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiyoNirExtensions.h; sourceTree = "<group>"; };
 		48D791AE1FFE1A940023D0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D791B31FFE1A940023D0CD /* TiyoNirExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiyoNirExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D791B81FFE1A940023D0CD /* TiyoNirExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiyoNirExtensionsTests.swift; sourceTree = "<group>"; };
 		48D791BA1FFE1A940023D0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D791C61FFE1AC30023D0CD /* ImageCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreator.swift; sourceTree = "<group>"; };
 		48D791C91FFE27B30023D0CD /* HexColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorConverter.swift; sourceTree = "<group>"; };
@@ -54,6 +68,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488B13871FFE6CDE001ADE46 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				488B13881FFE6CE5001ADE46 /* HexColorConverter */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		488B13881FFE6CE5001ADE46 /* HexColorConverter */ = {
+			isa = PBXGroup;
+			children = (
+				48CC4BD71FFF2A99007D257B /* ColorConverterTests.swift */,
+				48CC4BD91FFF2B24007D257B /* HexColorConverterTests.swift */,
+				48CC4BD31FFF29ED007D257B /* HexConverterTests.swift */,
+				488B138B1FFE6D1D001ADE46 /* HexTests.swift */,
+				488B138D1FFE84C4001ADE46 /* UIColorExtensionTests.swift */,
+			);
+			path = HexColorConverter;
+			sourceTree = "<group>";
+		};
 		48D791A01FFE1A940023D0CD = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +119,7 @@
 		48D791B71FFE1A940023D0CD /* TiyoNirExtensionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				48D791B81FFE1A940023D0CD /* TiyoNirExtensionsTests.swift */,
+				488B13871FFE6CDE001ADE46 /* Source */,
 				48D791BA1FFE1A940023D0CD /* Info.plist */,
 			);
 			path = TiyoNirExtensionsTests;
@@ -111,7 +145,10 @@
 		48D791C81FFE27870023D0CD /* HexColorConverter */ = {
 			isa = PBXGroup;
 			children = (
+				48CC4BCF1FFF28BF007D257B /* ColorConverter.swift */,
+				488B13851FFE675D001ADE46 /* Hex.swift */,
 				48D791C91FFE27B30023D0CD /* HexColorConverter.swift */,
+				48CC4BCD1FFF283B007D257B /* HexConverter.swift */,
 			);
 			path = HexColorConverter;
 			sourceTree = "<group>";
@@ -183,6 +220,7 @@
 					};
 					48D791B21FFE1A940023D0CD = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -227,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488B13861FFE675D001ADE46 /* Hex.swift in Sources */,
 				48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */,
+				48CC4BD01FFF28BF007D257B /* ColorConverter.swift in Sources */,
+				48CC4BCE1FFF283B007D257B /* HexConverter.swift in Sources */,
 				48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D791B91FFE1A940023D0CD /* TiyoNirExtensionsTests.swift in Sources */,
+				48CC4BDA1FFF2B24007D257B /* HexColorConverterTests.swift in Sources */,
+				48CC4BD41FFF29ED007D257B /* HexConverterTests.swift in Sources */,
+				488B138C1FFE6D1D001ADE46 /* HexTests.swift in Sources */,
+				48CC4BD81FFF2A99007D257B /* ColorConverterTests.swift in Sources */,
+				488B138E1FFE84C4001ADE46 /* UIColorExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
 				INFOPLIST_FILE = TiyoNirExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nir.TiyoNirExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -428,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
 				INFOPLIST_FILE = TiyoNirExtensionsTests/Info.plist;
