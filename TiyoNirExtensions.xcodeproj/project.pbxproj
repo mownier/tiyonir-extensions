@@ -15,6 +15,10 @@
 		48CC4BD41FFF29ED007D257B /* HexConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD31FFF29ED007D257B /* HexConverterTests.swift */; };
 		48CC4BD81FFF2A99007D257B /* ColorConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD71FFF2A99007D257B /* ColorConverterTests.swift */; };
 		48CC4BDA1FFF2B24007D257B /* HexColorConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BD91FFF2B24007D257B /* HexColorConverterTests.swift */; };
+		48CC4BDC1FFF3257007D257B /* ViewToImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BDB1FFF3257007D257B /* ViewToImageCreator.swift */; };
+		48CC4BDF1FFF32B5007D257B /* UIViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BDE1FFF32B5007D257B /* UIViewExtensionTests.swift */; };
+		48CC4BE11FFF3371007D257B /* ImageCreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BE01FFF3371007D257B /* ImageCreationTests.swift */; };
+		48CC4BE31FFF33D5007D257B /* ViewToImageCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC4BE21FFF33D5007D257B /* ViewToImageCreatorTests.swift */; };
 		48D791B41FFE1A940023D0CD /* TiyoNirExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D791AA1FFE1A940023D0CD /* TiyoNirExtensions.framework */; };
 		48D791BB1FFE1A940023D0CD /* TiyoNirExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C61FFE1AC30023D0CD /* ImageCreator.swift */; };
@@ -40,6 +44,10 @@
 		48CC4BD31FFF29ED007D257B /* HexConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexConverterTests.swift; sourceTree = "<group>"; };
 		48CC4BD71FFF2A99007D257B /* ColorConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverterTests.swift; sourceTree = "<group>"; };
 		48CC4BD91FFF2B24007D257B /* HexColorConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorConverterTests.swift; sourceTree = "<group>"; };
+		48CC4BDB1FFF3257007D257B /* ViewToImageCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToImageCreator.swift; sourceTree = "<group>"; };
+		48CC4BDE1FFF32B5007D257B /* UIViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionTests.swift; sourceTree = "<group>"; };
+		48CC4BE01FFF3371007D257B /* ImageCreationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreationTests.swift; sourceTree = "<group>"; };
+		48CC4BE21FFF33D5007D257B /* ViewToImageCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToImageCreatorTests.swift; sourceTree = "<group>"; };
 		48D791AA1FFE1A940023D0CD /* TiyoNirExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TiyoNirExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiyoNirExtensions.h; sourceTree = "<group>"; };
 		48D791AE1FFE1A940023D0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				488B13881FFE6CE5001ADE46 /* HexColorConverter */,
+				48CC4BDD1FFF328D007D257B /* ImageCreator */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -86,6 +95,16 @@
 				488B138D1FFE84C4001ADE46 /* UIColorExtensionTests.swift */,
 			);
 			path = HexColorConverter;
+			sourceTree = "<group>";
+		};
+		48CC4BDD1FFF328D007D257B /* ImageCreator */ = {
+			isa = PBXGroup;
+			children = (
+				48CC4BE01FFF3371007D257B /* ImageCreationTests.swift */,
+				48CC4BDE1FFF32B5007D257B /* UIViewExtensionTests.swift */,
+				48CC4BE21FFF33D5007D257B /* ViewToImageCreatorTests.swift */,
+			);
+			path = ImageCreator;
 			sourceTree = "<group>";
 		};
 		48D791A01FFE1A940023D0CD = {
@@ -138,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				48D791C61FFE1AC30023D0CD /* ImageCreator.swift */,
+				48CC4BDB1FFF3257007D257B /* ViewToImageCreator.swift */,
 			);
 			path = ImageCreator;
 			sourceTree = "<group>";
@@ -267,6 +287,7 @@
 			files = (
 				488B13861FFE675D001ADE46 /* Hex.swift in Sources */,
 				48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */,
+				48CC4BDC1FFF3257007D257B /* ViewToImageCreator.swift in Sources */,
 				48CC4BD01FFF28BF007D257B /* ColorConverter.swift in Sources */,
 				48CC4BCE1FFF283B007D257B /* HexConverter.swift in Sources */,
 				48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */,
@@ -279,8 +300,11 @@
 			files = (
 				48CC4BDA1FFF2B24007D257B /* HexColorConverterTests.swift in Sources */,
 				48CC4BD41FFF29ED007D257B /* HexConverterTests.swift in Sources */,
+				48CC4BE11FFF3371007D257B /* ImageCreationTests.swift in Sources */,
 				488B138C1FFE6D1D001ADE46 /* HexTests.swift in Sources */,
+				48CC4BE31FFF33D5007D257B /* ViewToImageCreatorTests.swift in Sources */,
 				48CC4BD81FFF2A99007D257B /* ColorConverterTests.swift in Sources */,
+				48CC4BDF1FFF32B5007D257B /* UIViewExtensionTests.swift in Sources */,
 				488B138E1FFE84C4001ADE46 /* UIColorExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

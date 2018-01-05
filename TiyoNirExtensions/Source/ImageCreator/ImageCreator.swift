@@ -10,7 +10,7 @@ import UIKit
 
 public protocol ImageCreator {
 
-    func create() -> UIImage?
+    func createImage() -> UIImage?
 }
 
 public class ImageCreation {
@@ -19,44 +19,13 @@ public class ImageCreation {
     }
     
     public func create(using creator: ImageCreator) -> UIImage? {
-        return creator.create()
-    }
-}
-
-public protocol ViewToImageCreatorParameter {
-    
-    func withView(_ view: UIView) -> ImageCreator & ViewToImageCreatorParameter
-}
-
-public final class ViewToImageCreator: ViewToImageCreatorParameter, ImageCreator {
-    
-    var view: UIView?
-    var creation: ImageCreation
-    
-    public init() {
-        self.creation = ImageCreation()
-    }
-    
-    public func withView(_ aView: UIView) -> ImageCreator & ViewToImageCreatorParameter {
-        view = aView
-        return self
-    }
-    
-    public func create() -> UIImage? {
-        guard let creator = view else {
-            return nil
-        }
-
-        let image = creation.create(using: creator)
-        view = nil
-        
-        return image
+        return creator.createImage()
     }
 }
 
 extension UIView: ImageCreator {
     
-    public func create() -> UIImage? {
+    public func createImage() -> UIImage? {
         let renderer = UIGraphicsImageRenderer(size: bounds.size)
         let image = renderer.image { _ in
             drawHierarchy(in: bounds, afterScreenUpdates: true)
