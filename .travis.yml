@@ -20,5 +20,5 @@ after_success:
 
 script:
   - set -o pipefail
-  - xcodebuild build test -project TiyoNirExtensions.xcodeproj -scheme TiyoNir -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone SE" | xcpretty -c
+  - xcodebuild build test -project TiyoNirExtensions.xcodeproj -scheme TiyoNirExtensions -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone SE" | xcpretty -c
 
