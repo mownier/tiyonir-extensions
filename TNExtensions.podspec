@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TNExtensions"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Tiyo Nir Extensions"
   s.description  = "Commonly used extensions"
   s.homepage     = "https://github.com/mownier/tiyonir-extensions"
