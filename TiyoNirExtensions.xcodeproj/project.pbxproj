@@ -23,6 +23,11 @@
 		48D791BB1FFE1A940023D0CD /* TiyoNirExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D791AD1FFE1A940023D0CD /* TiyoNirExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C61FFE1AC30023D0CD /* ImageCreator.swift */; };
 		48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D791C91FFE27B30023D0CD /* HexColorConverter.swift */; };
+		48E8003A20012B7C00F5D902 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8003920012B7C00F5D902 /* Email.swift */; };
+		48E8003C20012C7600F5D902 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8003B20012C7600F5D902 /* EmailValidator.swift */; };
+		48E8003F200130A800F5D902 /* EmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8003E200130A800F5D902 /* EmailValidatorTests.swift */; };
+		48E800412001329D00F5D902 /* EmailValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E800402001329D00F5D902 /* EmailValidationTests.swift */; };
+		48E800432001335100F5D902 /* EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E800422001335100F5D902 /* EmailTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		48D791BA1FFE1A940023D0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D791C61FFE1AC30023D0CD /* ImageCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreator.swift; sourceTree = "<group>"; };
 		48D791C91FFE27B30023D0CD /* HexColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorConverter.swift; sourceTree = "<group>"; };
+		48E8003920012B7C00F5D902 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		48E8003B20012C7600F5D902 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		48E8003E200130A800F5D902 /* EmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorTests.swift; sourceTree = "<group>"; };
+		48E800402001329D00F5D902 /* EmailValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationTests.swift; sourceTree = "<group>"; };
+		48E800422001335100F5D902 /* EmailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		488B13871FFE6CDE001ADE46 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				48E8003D2001305100F5D902 /* EmailValidator */,
 				488B13881FFE6CE5001ADE46 /* HexColorConverter */,
 				48CC4BDD1FFF328D007D257B /* ImageCreator */,
 			);
@@ -147,6 +158,7 @@
 		48D791C41FFE1AA10023D0CD /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				48E8003820012B4700F5D902 /* EmailValidator */,
 				48D791C81FFE27870023D0CD /* HexColorConverter */,
 				48D791C51FFE1AAE0023D0CD /* ImageCreator */,
 			);
@@ -171,6 +183,25 @@
 				48CC4BCD1FFF283B007D257B /* HexConverter.swift */,
 			);
 			path = HexColorConverter;
+			sourceTree = "<group>";
+		};
+		48E8003820012B4700F5D902 /* EmailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				48E8003920012B7C00F5D902 /* Email.swift */,
+				48E8003B20012C7600F5D902 /* EmailValidator.swift */,
+			);
+			path = EmailValidator;
+			sourceTree = "<group>";
+		};
+		48E8003D2001305100F5D902 /* EmailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				48E800422001335100F5D902 /* EmailTests.swift */,
+				48E800402001329D00F5D902 /* EmailValidationTests.swift */,
+				48E8003E200130A800F5D902 /* EmailValidatorTests.swift */,
+			);
+			path = EmailValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				488B13861FFE675D001ADE46 /* Hex.swift in Sources */,
+				48E8003A20012B7C00F5D902 /* Email.swift in Sources */,
 				48D791CA1FFE27B30023D0CD /* HexColorConverter.swift in Sources */,
 				48CC4BDC1FFF3257007D257B /* ViewToImageCreator.swift in Sources */,
 				48CC4BD01FFF28BF007D257B /* ColorConverter.swift in Sources */,
+				48E8003C20012C7600F5D902 /* EmailValidator.swift in Sources */,
 				48CC4BCE1FFF283B007D257B /* HexConverter.swift in Sources */,
 				48D791C71FFE1AC30023D0CD /* ImageCreator.swift in Sources */,
 			);
@@ -301,9 +334,12 @@
 				48CC4BDA1FFF2B24007D257B /* HexColorConverterTests.swift in Sources */,
 				48CC4BD41FFF29ED007D257B /* HexConverterTests.swift in Sources */,
 				48CC4BE11FFF3371007D257B /* ImageCreationTests.swift in Sources */,
+				48E800432001335100F5D902 /* EmailTests.swift in Sources */,
+				48E8003F200130A800F5D902 /* EmailValidatorTests.swift in Sources */,
 				488B138C1FFE6D1D001ADE46 /* HexTests.swift in Sources */,
 				48CC4BE31FFF33D5007D257B /* ViewToImageCreatorTests.swift in Sources */,
 				48CC4BD81FFF2A99007D257B /* ColorConverterTests.swift in Sources */,
+				48E800412001329D00F5D902 /* EmailValidationTests.swift in Sources */,
 				48CC4BDF1FFF32B5007D257B /* UIViewExtensionTests.swift in Sources */,
 				488B138E1FFE84C4001ADE46 /* UIColorExtensionTests.swift in Sources */,
 			);
